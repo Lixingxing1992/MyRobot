@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/bannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:AutoPlayTime="3000"
+        app:isShowIndicatorOnlyOne="false"
+        app:pageChangeDuration="800"
+        app:pointsContainerBackground="@null"
+        app:pointsPosition="CENTER"
+        app:tipTextSize="12sp" />
+
+    <FrameLayout
+            android:id="@+id/btn_back"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@mipmap/btn_bg_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView android:text="返回"
+                  android:textColor="#fff"
+                  android:textSize="@dimen/sp_13"
+                  android:drawableLeft="@mipmap/back"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

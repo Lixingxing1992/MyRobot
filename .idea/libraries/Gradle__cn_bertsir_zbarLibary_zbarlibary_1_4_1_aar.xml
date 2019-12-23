@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.bertsir.zbarLibary:zbarlibary:1.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1c2e924be8827d75504c93562ce6933/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1c2e924be8827d75504c93562ce6933/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bertsir.zbarLibary/zbarlibary/1.4.1/57555eb0a8e6a4045a572ff7ee9457df4771c9fd/zbarlibary-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

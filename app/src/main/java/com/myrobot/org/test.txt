@@ -1,0 +1,3 @@
+
+(String)redissonClient.getScript().evalAsync(RScript.Mode.READ_ONLY,"return redis.call('JSON.GET','"+key+"','NOESCAPE','"+path+"')",RScript.ReturnType.VALUE).get();
+(String)        client.getScript().evalAsync(RScript.Mode.READ_ONLY,"return redis.call('JSON.GET','"+key+"','NOESCAPE','"+path+"')",RScript.ReturnType.VALUE).get();

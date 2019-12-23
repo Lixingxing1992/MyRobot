@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Lixingxing1992:XBaseHttpUtils:v1.0-beta15@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be9bb5e65cde3c10cc4f8cbb0599e055/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be9bb5e65cde3c10cc4f8cbb0599e055/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Lixingxing1992/XBaseHttpUtils/v1.0-beta15/464f3fa78ee186061251a96914395ccfa0570f0e/XBaseHttpUtils-v1.0-beta15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

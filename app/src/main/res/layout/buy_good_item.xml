@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/item_bg"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dp_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_206">
+    <FrameLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+        <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/good_pic"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_133"/>
+        <ImageView
+                android:id="@+id/good_have_no"
+                android:visibility="gone"
+                android:src="@mipmap/buy_sale_no"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView
+            android:id="@+id/good_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_3"
+            android:textSize="@dimen/sp_11"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#1f1f1f"/>
+    <TextView
+            android:id="@+id/good_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_3"
+            android:textSize="@dimen/sp_11"
+            android:textColor="#1f1f1f"/>
+</LinearLayout>
+

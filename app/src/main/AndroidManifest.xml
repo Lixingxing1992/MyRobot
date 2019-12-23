@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.myrobot.org">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+            android:name=".base.MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <service android:name=".service.RobotCheckService"/>
+
+        <!--首页测试-->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--首页-->
+        <activity android:name=".main.AppMainActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+        />
+        <!--获得优惠券-->
+        <activity android:name=".coupon.CouponChooseActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+                  />
+        <!--扫一扫-->
+        <activity android:name=".scan.ScanActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+        />
+        <!--预览页面-->
+        <activity android:name=".test.TestBannerActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+        />
+
+        <!--客服-->
+        <activity android:name=".customer.CustormerActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+        />
+        <!--抢购-->
+        <activity android:name=".buy.BuyActivity"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/BaseAppTheme"
+        />
+    </application>
+
+</manifest>
